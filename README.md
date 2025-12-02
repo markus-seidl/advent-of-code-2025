@@ -5,3 +5,5 @@
 Two Gold Stars
 
 ## Day 02
+
+Two Gold Stars
