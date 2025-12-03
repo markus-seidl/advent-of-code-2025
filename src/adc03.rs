@@ -56,15 +56,18 @@ pub fn adc03() -> io::Result<()> {
 
             let mut last_i: i64 = -1;
             let mut max = 0;
-            for i in 0..11 {
-                let (max, max_i) = find_max(numbers.clone(), 0, (last_i + 1) as usize);
+            for i in 0..12 {
+                let (fm, max_i) = find_max(numbers.clone(), i, (last_i + 1) as usize);
                 last_i = max_i;
+
+                max += fm * 10i64.pow(11-i);
             }
 
 
             // generate all combinations of 12 length
 
             // let max = combination(numbers.clone(), 0, 0, 0, 0)?;
+            sum += max;
             println!(" - max: {}", max);
         }
         println!("sum: {}", sum);
