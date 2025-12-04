@@ -7,3 +7,11 @@ Two Gold Stars
 ## Day 02
 
 Two Gold Stars
+
+## Day 03
+
+Two Gold Stars
+
+## Day 04
+
+Two Gold Stars
