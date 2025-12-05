@@ -15,3 +15,8 @@ Two Gold Stars
 ## Day 04
 
 Two Gold Stars
+
+## Day 05
+
+One Gold Star - Ranges are no fun.
+
