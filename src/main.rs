@@ -4,7 +4,8 @@ mod adc02;
 mod adc03;
 mod adc04;
 mod adc05;
+mod adc06;
 
 fn main() {
-    adc05::adc05().unwrap();
+    adc06::adc06().unwrap();
 }
