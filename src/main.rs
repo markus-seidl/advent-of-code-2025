@@ -7,7 +7,8 @@ mod adc05;
 mod adc06;
 mod adc07;
 mod adc08;
+mod adc09;
 
 fn main() {
-    adc08::run().unwrap();
+    adc09::run().unwrap();
 }
